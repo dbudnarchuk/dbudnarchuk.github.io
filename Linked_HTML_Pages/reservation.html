@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en-CA">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href=../style_sheet_3.css>
+  <title>Daemon's Restaurant</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <style>
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color:grey;
+   }
+   
+   li {
+     float: left;
+   }
+   
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;
+   }
+   
+   li a:hover {
+     background-color: greenyellow;
+   }
+   </style>
+</head>
+<body>
+    <ul>
+      <li><a href=../index.html>Home</a></li>  
+      <li><a href=/Linked_HTML_Pages/menu_page.html>Menu</a></li>
+        <li><a href=/Linked_HTML_Pages/delivery.html>Delivery</a></li>
+        <li><a href=/Linked_HTML_Pages/reservation.html>Reservation</a></li>
+        <li><a href=/Linked_HTML_Pages/reviews.html>Reviews</a></li>
+      </ul>
+      <div style="background-color:darkgreen;padding:15px;text-align:center">
+      <h1>Make a reservation today!</h1>
+      </div>
+    <p style="font-size:150%">To make a reservation, call us at 5688829921, or email us at daemonrestaurant@gmail.com,<br>
+    We have dinner reservations available from 4:30 PM to 9:00 PM, we look forward to serving you!</p>
+
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for ="menuitem">Reservation time:</label><br>
+    <input for ="text" id="res" name="res"><br>
+    <label for ="menuitem">Table #:</label><br>
+    <input for ="text" id="table" name="table"><br>
+    <br>
+    <input type = "submit">
+    <h1>Our restaurant layout (please pick one of these table numbers for your reservation)</h1>
+    <img src="/Images/floorplan.png" alt="Our restaurant layout" style ="height:1000;width:1000;">
+  </body>

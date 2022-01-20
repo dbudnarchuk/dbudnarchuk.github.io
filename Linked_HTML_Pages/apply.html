@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en-CA">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href=../style_sheet_3.css>
+  <title>Daemon's Restaurant</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <style>
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color:grey;
+   }
+   
+   li {
+     float: left;
+   }
+   
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;
+   }
+   
+   li a:hover {
+     background-color: greenyellow;
+   }
+   </style>
+</head>
+<body>
+    <ul>
+      <li><a href=../index.html>Home</a></li>    
+      <li><a href=/Linked_HTML_Pages/menu_page.html>Menu</a></li>
+        <li><a href=/Linked_HTML_Pages/delivery.html>Delivery</a></li>
+        <li><a href=/Linked_HTML_Pages/reservation.html>Reservation</a></li>
+        <li><a href=/Linked_HTML_Pages/reviews.html>Reviews</a></li>
+      </ul>
+      <div style="background-color:darkgreen;padding:15px;text-align:center">
+      <h1>Apply for a job!</h1>
+      </div>
+      <p>Here at Daemon's restaurant, we need new reliable employees, we have 6 positions to be filled as a chef, dishwasher, or waiter/waitress. 
+        Please fill out the form below with your name, phone number, email, address, position you are applying for, and your qualifications! You will
+        recieve an email and phone call with your interview date/time. We look forward to meeting you!
+      </p>
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="email">E-mail:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="address">Address:</label><br>
+        <input type="address" id="address" name="address"><br>
+        <label for="pos">Position:</label><br>
+        <input type="text" id="pos" name="pos"><br>
+        <label for="quals">Qualifications:</label><br>
+        <input type="text" id="quals" name="quals"><br>
+        <br>
+        <input type = "submit">
+      </form>
